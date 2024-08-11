@@ -1,0 +1,8 @@
+name: worlds
+version: '${project.version}'
+main: me.speednt.worlds.Worlds
+api-version: '1.20'
+commands:
+  world:
+    description: A command to manage worlds
+    usage: /world <create [overworld|nether|end]> <name> | <delete [overworld|nether|end]> <name> | <teleport> <name> [x y z] | <info>
